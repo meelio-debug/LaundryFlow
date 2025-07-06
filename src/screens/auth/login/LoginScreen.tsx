@@ -5,7 +5,7 @@ export const LoginScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Sign In</Text>
-      <Text style={styles.subtitle}>Welcome back to LaundryFlow</Text>
+      <Text style={styles.subtitle}>Welcome back to new beginnings</Text>
     </View>
   );
 };
