@@ -1,0 +1,67 @@
+<svg width="1242" height="2688" viewBox="0 0 1242 2688" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <rect width="1242" height="2688" fill="url(#splashGradient)"/>
+  
+  <!-- Background Pattern -->
+  <g opacity="0.1">
+    <circle cx="200" cy="400" r="100" fill="#FFFFFF"/>
+    <circle cx="1000" cy="600" r="80" fill="#FFFFFF"/>
+    <circle cx="300" cy="1200" r="60" fill="#FFFFFF"/>
+    <circle cx="900" cy="1400" r="120" fill="#FFFFFF"/>
+    <circle cx="150" cy="2000" r="90" fill="#FFFFFF"/>
+    <circle cx="1100" cy="2200" r="70" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Main Logo Container -->
+  <g transform="translate(621, 1344)">
+    <!-- Logo Background Circle -->
+    <circle cx="0" cy="0" r="200" fill="#FFFFFF" opacity="0.95"/>
+    <circle cx="0" cy="0" r="180" fill="url(#logoGradient)"/>
+    
+    <!-- Washing Machine Icon -->
+    <g transform="scale(0.8)">
+      <!-- Drum -->
+      <circle cx="0" cy="0" r="120" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+      <circle cx="0" cy="0" r="80" fill="none" stroke="#E0F2FE" stroke-width="8"/>
+      
+      <!-- Laundry Items -->
+      <g opacity="0.9">
+        <ellipse cx="-40" cy="-30" rx="15" ry="20" fill="#FFFFFF"/>
+        <ellipse cx="30" cy="-40" rx="12" ry="18" fill="#F0F9FF"/>
+        <ellipse cx="-10" cy="40" rx="18" ry="22" fill="#FFFFFF"/>
+        <ellipse cx="50" cy="20" rx="14" ry="19" fill="#E0F2FE"/>
+      </g>
+      
+      <!-- Flow Lines -->
+      <path d="M-80 -80 Q0 -100 80 -80" stroke="#FFFFFF" stroke-width="6" fill="none" opacity="0.7"/>
+      <path d="M-80 80 Q0 100 80 80" stroke="#E0F2FE" stroke-width="6" fill="none" opacity="0.7"/>
+    </g>
+  </g>
+  
+  <!-- App Name -->
+  <text x="621" y="1650" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="72" font-weight="700">LaundryFlow</text>
+  
+  <!-- Tagline -->
+  <text x="621" y="1720" text-anchor="middle" fill="#E0F2FE" font-family="Inter, sans-serif" font-size="32" font-weight="400">Laundry Made Simple</text>
+  
+  <!-- Loading Indicator -->
+  <g transform="translate(621, 2200)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.3"/>
+    <path d="M0,-30 A30,30 0 0,1 21.21,-21.21" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <defs>
+    <linearGradient id="splashGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

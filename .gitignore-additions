@@ -1,0 +1,24 @@
+# LaundryFlow specific
+src/config/secrets.ts
+*.log
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db

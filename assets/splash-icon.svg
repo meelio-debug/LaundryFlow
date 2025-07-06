@@ -1,0 +1,47 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="512" fill="url(#gradient1)"/>
+  
+  <!-- Washing Machine Drum -->
+  <circle cx="512" cy="512" r="280" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="8"/>
+  <circle cx="512" cy="512" r="240" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="4"/>
+  
+  <!-- Washing Machine Door -->
+  <circle cx="512" cy="512" r="200" fill="none" stroke="#9CA3AF" stroke-width="6"/>
+  
+  <!-- Water Bubbles/Flow Elements -->
+  <circle cx="420" cy="380" r="24" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="580" cy="420" r="18" fill="#60A5FA" opacity="0.8"/>
+  <circle cx="460" cy="640" r="20" fill="#2563EB" opacity="0.6"/>
+  <circle cx="600" cy="580" r="16" fill="#93C5FD" opacity="0.9"/>
+  <circle cx="380" cy="520" r="14" fill="#DBEAFE" opacity="0.8"/>
+  <circle cx="640" cy="480" r="22" fill="#3B82F6" opacity="0.7"/>
+  
+  <!-- Flow Lines -->
+  <path d="M350 450 Q400 400 450 450 T550 450" stroke="#2563EB" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M470 350 Q520 300 570 350 T670 350" stroke="#60A5FA" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M320 580 Q370 530 420 580 T520 580" stroke="#93C5FD" stroke-width="5" fill="none" opacity="0.5"/>
+  
+  <!-- Central Laundry Symbol -->
+  <g transform="translate(512, 512)">
+    <!-- Shirt Icon -->
+    <path d="M-40 -60 L-20 -80 L-10 -80 L-10 -70 L10 -70 L10 -80 L20 -80 L40 -60 L40 -40 L30 -40 L30 60 L-30 60 L-30 -40 L-40 -40 Z" 
+          fill="#2563EB" stroke="#1D4ED8" stroke-width="2"/>
+    
+    <!-- Sparkle/Clean Effect -->
+    <g opacity="0.8">
+      <path d="M-60 -20 L-50 -30 L-40 -20 L-50 -10 Z" fill="#FFD700"/>
+      <path d="M60 20 L70 10 L80 20 L70 30 Z" fill="#FFD700"/>
+      <path d="M-50 40 L-40 30 L-30 40 L-40 50 Z" fill="#FCD34D"/>
+    </g>
+  </g>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
